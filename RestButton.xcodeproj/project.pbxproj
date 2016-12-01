@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2018CC18A5D8A580A8A3D443 /* Pods_RestButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A087598B12FB173BD47F08 /* Pods_RestButton.framework */; };
+		3A947B5245254ADA3885AB1D /* Pods_RestButton_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C861A49A1197F1FA1E3FADF4 /* Pods_RestButton_WatchKit_App.framework */; };
 		53301A401DEFAF8B006D8D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */; };
 		53301A421DEFAF8B006D8D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A411DEFAF8B006D8D00 /* ViewController.swift */; };
 		53301A451DEFAF8B006D8D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53301A431DEFAF8B006D8D00 /* Main.storyboard */; };
@@ -20,6 +22,7 @@
 		53301A671DEFAF8C006D8D00 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A661DEFAF8C006D8D00 /* ExtensionDelegate.swift */; };
 		53301A691DEFAF8C006D8D00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A681DEFAF8C006D8D00 /* NotificationController.swift */; };
 		53301A6B1DEFAF8C006D8D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53301A6A1DEFAF8C006D8D00 /* Assets.xcassets */; };
+		590539E29B06870FBFBB7F55 /* Pods_RestButton_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D35D876683AF81F79C7CD /* Pods_RestButton_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E69C2B212A939C07345FBFB /* Pods-RestButton WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton WatchKit Extension/Pods-RestButton WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		53301A3C1DEFAF8B006D8D00 /* RestButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53301A411DEFAF8B006D8D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,15 @@
 		53301A681DEFAF8C006D8D00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		53301A6A1DEFAF8C006D8D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53301A6C1DEFAF8C006D8D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53301A7A1DEFB87B006D8D00 /* RestButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RestButton.entitlements; sourceTree = "<group>"; };
+		5864B1BF2CEE85813A0599D7 /* Pods-RestButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton/Pods-RestButton.debug.xcconfig"; sourceTree = "<group>"; };
+		855BFB4E1C2AA020E1794E98 /* Pods-RestButton WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton WatchKit App/Pods-RestButton WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		91DF3EEDD3687641F696BCB7 /* Pods-RestButton WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton WatchKit App/Pods-RestButton WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		98A087598B12FB173BD47F08 /* Pods_RestButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8D35D876683AF81F79C7CD /* Pods_RestButton_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestButton_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E1802FF986008632C274FE /* Pods-RestButton WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton WatchKit Extension/Pods-RestButton WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C861A49A1197F1FA1E3FADF4 /* Pods_RestButton_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestButton_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43AF623D98061EC5DB0B104 /* Pods-RestButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestButton/Pods-RestButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2018CC18A5D8A580A8A3D443 /* Pods_RestButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +111,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590539E29B06870FBFBB7F55 /* Pods_RestButton_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA2736FF0EDE6C93893C5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A947B5245254ADA3885AB1D /* Pods_RestButton_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +133,8 @@
 				53301A521DEFAF8C006D8D00 /* RestButton WatchKit App */,
 				53301A611DEFAF8C006D8D00 /* RestButton WatchKit Extension */,
 				53301A3D1DEFAF8B006D8D00 /* Products */,
+				C33488DD856DD94E2EF4E220 /* Pods */,
+				9DBB0AA1FBF62D79D3961106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +151,7 @@
 		53301A3E1DEFAF8B006D8D00 /* RestButton */ = {
 			isa = PBXGroup;
 			children = (
+				53301A7A1DEFB87B006D8D00 /* RestButton.entitlements */,
 				53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */,
 				53301A411DEFAF8B006D8D00 /* ViewController.swift */,
 				53301A431DEFAF8B006D8D00 /* Main.storyboard */,
@@ -167,6 +193,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DBB0AA1FBF62D79D3961106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A087598B12FB173BD47F08 /* Pods_RestButton.framework */,
+				C861A49A1197F1FA1E3FADF4 /* Pods_RestButton_WatchKit_App.framework */,
+				AD8D35D876683AF81F79C7CD /* Pods_RestButton_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33488DD856DD94E2EF4E220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5864B1BF2CEE85813A0599D7 /* Pods-RestButton.debug.xcconfig */,
+				D43AF623D98061EC5DB0B104 /* Pods-RestButton.release.xcconfig */,
+				91DF3EEDD3687641F696BCB7 /* Pods-RestButton WatchKit App.debug.xcconfig */,
+				855BFB4E1C2AA020E1794E98 /* Pods-RestButton WatchKit App.release.xcconfig */,
+				C3E1802FF986008632C274FE /* Pods-RestButton WatchKit Extension.debug.xcconfig */,
+				1E69C2B212A939C07345FBFB /* Pods-RestButton WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,10 +223,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53301A771DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton" */;
 			buildPhases = (
+				45E0BE9EEA2C256F91EF1E32 /* [CP] Check Pods Manifest.lock */,
 				53301A381DEFAF8B006D8D00 /* Sources */,
 				53301A391DEFAF8B006D8D00 /* Frameworks */,
 				53301A3A1DEFAF8B006D8D00 /* Resources */,
 				53301A761DEFAF8C006D8D00 /* Embed Watch Content */,
+				3E540FA9D7F93BA116D3CE82 /* [CP] Embed Pods Frameworks */,
+				CD7CB26C44BCEBFC64E19A7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53301A731DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit App" */;
 			buildPhases = (
+				F48B09A62DFBC5526068C2E2 /* [CP] Check Pods Manifest.lock */,
 				53301A4C1DEFAF8C006D8D00 /* Resources */,
 				53301A721DEFAF8C006D8D00 /* Embed App Extensions */,
+				AFA2736FF0EDE6C93893C5F8 /* Frameworks */,
+				A9A3C9D76860C7A1B2342108 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53301A6F1DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit Extension" */;
 			buildPhases = (
+				8D173519B3318649A3C97045 /* [CP] Check Pods Manifest.lock */,
 				53301A591DEFAF8C006D8D00 /* Sources */,
 				53301A5A1DEFAF8C006D8D00 /* Frameworks */,
 				53301A5B1DEFAF8C006D8D00 /* Resources */,
+				A4F51CA87568ED6A11FCA6BA /* [CP] Embed Pods Frameworks */,
+				58ED397657FC964B5892FB18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +295,14 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5E7D5R7C83;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					53301A4D1DEFAF8C006D8D00 = {
 						CreatedOnToolsVersion = 8.1;
@@ -299,6 +365,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E540FA9D7F93BA116D3CE82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestButton/Pods-RestButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E0BE9EEA2C256F91EF1E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58ED397657FC964B5892FB18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestButton WatchKit Extension/Pods-RestButton WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D173519B3318649A3C97045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F51CA87568ED6A11FCA6BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestButton WatchKit Extension/Pods-RestButton WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A3C9D76860C7A1B2342108 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestButton WatchKit App/Pods-RestButton WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7CB26C44BCEBFC64E19A7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestButton/Pods-RestButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48B09A62DFBC5526068C2E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53301A381DEFAF8B006D8D00 /* Sources */ = {
@@ -456,6 +645,7 @@
 		};
 		53301A701DEFAF8C006D8D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E1802FF986008632C274FE /* Pods-RestButton WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = 5E7D5R7C83;
@@ -473,6 +663,7 @@
 		};
 		53301A711DEFAF8C006D8D00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E69C2B212A939C07345FBFB /* Pods-RestButton WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = 5E7D5R7C83;
@@ -490,6 +681,7 @@
 		};
 		53301A741DEFAF8C006D8D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DF3EEDD3687641F696BCB7 /* Pods-RestButton WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -508,6 +700,7 @@
 		};
 		53301A751DEFAF8C006D8D00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855BFB4E1C2AA020E1794E98 /* Pods-RestButton WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -526,8 +719,10 @@
 		};
 		53301A781DEFAF8C006D8D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5864B1BF2CEE85813A0599D7 /* Pods-RestButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RestButton/RestButton.entitlements;
 				DEVELOPMENT_TEAM = 5E7D5R7C83;
 				INFOPLIST_FILE = RestButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -539,8 +734,10 @@
 		};
 		53301A791DEFAF8C006D8D00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43AF623D98061EC5DB0B104 /* Pods-RestButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RestButton/RestButton.entitlements;
 				DEVELOPMENT_TEAM = 5E7D5R7C83;
 				INFOPLIST_FILE = RestButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -569,6 +766,7 @@
 				53301A711DEFAF8C006D8D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53301A731DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +775,7 @@
 				53301A751DEFAF8C006D8D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53301A771DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +784,7 @@
 				53301A791DEFAF8C006D8D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

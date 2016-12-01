@@ -1,16 +1,20 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title"
+            "body": "Pick one!",
+            "title": "Yes or No?"
         },
-        "category": "myCategory"
+        "category": "rest"
     },
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
-            "identifier": "firstButtonAction"
+            "title": "Yes!",
+            "identifier": "yesButtonAction"
+        },
+        {
+            "title": "No",
+            "identifier": "noButtonAction"
         }
     ],
     
