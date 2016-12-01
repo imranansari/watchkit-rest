@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53301A401DEFAF8B006D8D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */; };
+		53301A421DEFAF8B006D8D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A411DEFAF8B006D8D00 /* ViewController.swift */; };
+		53301A451DEFAF8B006D8D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53301A431DEFAF8B006D8D00 /* Main.storyboard */; };
+		53301A471DEFAF8C006D8D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53301A461DEFAF8C006D8D00 /* Assets.xcassets */; };
+		53301A4A1DEFAF8C006D8D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53301A481DEFAF8C006D8D00 /* LaunchScreen.storyboard */; };
+		53301A4F1DEFAF8C006D8D00 /* RestButton WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53301A4E1DEFAF8C006D8D00 /* RestButton WatchKit App.app */; };
+		53301A551DEFAF8C006D8D00 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53301A531DEFAF8C006D8D00 /* Interface.storyboard */; };
+		53301A571DEFAF8C006D8D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53301A561DEFAF8C006D8D00 /* Assets.xcassets */; };
+		53301A5E1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53301A5D1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53301A651DEFAF8C006D8D00 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A641DEFAF8C006D8D00 /* InterfaceController.swift */; };
+		53301A671DEFAF8C006D8D00 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A661DEFAF8C006D8D00 /* ExtensionDelegate.swift */; };
+		53301A691DEFAF8C006D8D00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53301A681DEFAF8C006D8D00 /* NotificationController.swift */; };
+		53301A6B1DEFAF8C006D8D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53301A6A1DEFAF8C006D8D00 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53301A501DEFAF8C006D8D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53301A341DEFAF8B006D8D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53301A4D1DEFAF8C006D8D00;
+			remoteInfo = "RestButton WatchKit App";
+		};
+		53301A5F1DEFAF8C006D8D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53301A341DEFAF8B006D8D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53301A5C1DEFAF8C006D8D00;
+			remoteInfo = "RestButton WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53301A721DEFAF8C006D8D00 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53301A5E1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53301A761DEFAF8C006D8D00 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				53301A4F1DEFAF8C006D8D00 /* RestButton WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53301A3C1DEFAF8B006D8D00 /* RestButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53301A411DEFAF8B006D8D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53301A441DEFAF8B006D8D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53301A461DEFAF8C006D8D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53301A491DEFAF8C006D8D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53301A4B1DEFAF8C006D8D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53301A4E1DEFAF8C006D8D00 /* RestButton WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestButton WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53301A541DEFAF8C006D8D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		53301A561DEFAF8C006D8D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53301A581DEFAF8C006D8D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53301A5D1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RestButton WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53301A631DEFAF8C006D8D00 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		53301A641DEFAF8C006D8D00 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		53301A661DEFAF8C006D8D00 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		53301A681DEFAF8C006D8D00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		53301A6A1DEFAF8C006D8D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53301A6C1DEFAF8C006D8D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53301A391DEFAF8B006D8D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53301A5A1DEFAF8C006D8D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53301A331DEFAF8B006D8D00 = {
+			isa = PBXGroup;
+			children = (
+				53301A3E1DEFAF8B006D8D00 /* RestButton */,
+				53301A521DEFAF8C006D8D00 /* RestButton WatchKit App */,
+				53301A611DEFAF8C006D8D00 /* RestButton WatchKit Extension */,
+				53301A3D1DEFAF8B006D8D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53301A3D1DEFAF8B006D8D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53301A3C1DEFAF8B006D8D00 /* RestButton.app */,
+				53301A4E1DEFAF8C006D8D00 /* RestButton WatchKit App.app */,
+				53301A5D1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53301A3E1DEFAF8B006D8D00 /* RestButton */ = {
+			isa = PBXGroup;
+			children = (
+				53301A3F1DEFAF8B006D8D00 /* AppDelegate.swift */,
+				53301A411DEFAF8B006D8D00 /* ViewController.swift */,
+				53301A431DEFAF8B006D8D00 /* Main.storyboard */,
+				53301A461DEFAF8C006D8D00 /* Assets.xcassets */,
+				53301A481DEFAF8C006D8D00 /* LaunchScreen.storyboard */,
+				53301A4B1DEFAF8C006D8D00 /* Info.plist */,
+			);
+			path = RestButton;
+			sourceTree = "<group>";
+		};
+		53301A521DEFAF8C006D8D00 /* RestButton WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				53301A531DEFAF8C006D8D00 /* Interface.storyboard */,
+				53301A561DEFAF8C006D8D00 /* Assets.xcassets */,
+				53301A581DEFAF8C006D8D00 /* Info.plist */,
+			);
+			path = "RestButton WatchKit App";
+			sourceTree = "<group>";
+		};
+		53301A611DEFAF8C006D8D00 /* RestButton WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				53301A641DEFAF8C006D8D00 /* InterfaceController.swift */,
+				53301A661DEFAF8C006D8D00 /* ExtensionDelegate.swift */,
+				53301A681DEFAF8C006D8D00 /* NotificationController.swift */,
+				53301A6A1DEFAF8C006D8D00 /* Assets.xcassets */,
+				53301A6C1DEFAF8C006D8D00 /* Info.plist */,
+				53301A621DEFAF8C006D8D00 /* Supporting Files */,
+			);
+			path = "RestButton WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		53301A621DEFAF8C006D8D00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53301A631DEFAF8C006D8D00 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53301A3B1DEFAF8B006D8D00 /* RestButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53301A771DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton" */;
+			buildPhases = (
+				53301A381DEFAF8B006D8D00 /* Sources */,
+				53301A391DEFAF8B006D8D00 /* Frameworks */,
+				53301A3A1DEFAF8B006D8D00 /* Resources */,
+				53301A761DEFAF8C006D8D00 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53301A511DEFAF8C006D8D00 /* PBXTargetDependency */,
+			);
+			name = RestButton;
+			productName = RestButton;
+			productReference = 53301A3C1DEFAF8B006D8D00 /* RestButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53301A4D1DEFAF8C006D8D00 /* RestButton WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53301A731DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit App" */;
+			buildPhases = (
+				53301A4C1DEFAF8C006D8D00 /* Resources */,
+				53301A721DEFAF8C006D8D00 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53301A601DEFAF8C006D8D00 /* PBXTargetDependency */,
+			);
+			name = "RestButton WatchKit App";
+			productName = "RestButton WatchKit App";
+			productReference = 53301A4E1DEFAF8C006D8D00 /* RestButton WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		53301A5C1DEFAF8C006D8D00 /* RestButton WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53301A6F1DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit Extension" */;
+			buildPhases = (
+				53301A591DEFAF8C006D8D00 /* Sources */,
+				53301A5A1DEFAF8C006D8D00 /* Frameworks */,
+				53301A5B1DEFAF8C006D8D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RestButton WatchKit Extension";
+			productName = "RestButton WatchKit Extension";
+			productReference = 53301A5D1DEFAF8C006D8D00 /* RestButton WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53301A341DEFAF8B006D8D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sammy Yousif";
+				TargetAttributes = {
+					53301A3B1DEFAF8B006D8D00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5E7D5R7C83;
+						ProvisioningStyle = Automatic;
+					};
+					53301A4D1DEFAF8C006D8D00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5E7D5R7C83;
+						ProvisioningStyle = Automatic;
+					};
+					53301A5C1DEFAF8C006D8D00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5E7D5R7C83;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53301A371DEFAF8B006D8D00 /* Build configuration list for PBXProject "RestButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53301A331DEFAF8B006D8D00;
+			productRefGroup = 53301A3D1DEFAF8B006D8D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53301A3B1DEFAF8B006D8D00 /* RestButton */,
+				53301A4D1DEFAF8C006D8D00 /* RestButton WatchKit App */,
+				53301A5C1DEFAF8C006D8D00 /* RestButton WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53301A3A1DEFAF8B006D8D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53301A4A1DEFAF8C006D8D00 /* LaunchScreen.storyboard in Resources */,
+				53301A471DEFAF8C006D8D00 /* Assets.xcassets in Resources */,
+				53301A451DEFAF8B006D8D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53301A4C1DEFAF8C006D8D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53301A571DEFAF8C006D8D00 /* Assets.xcassets in Resources */,
+				53301A551DEFAF8C006D8D00 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53301A5B1DEFAF8C006D8D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53301A6B1DEFAF8C006D8D00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53301A381DEFAF8B006D8D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53301A421DEFAF8B006D8D00 /* ViewController.swift in Sources */,
+				53301A401DEFAF8B006D8D00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53301A591DEFAF8C006D8D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53301A691DEFAF8C006D8D00 /* NotificationController.swift in Sources */,
+				53301A671DEFAF8C006D8D00 /* ExtensionDelegate.swift in Sources */,
+				53301A651DEFAF8C006D8D00 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53301A511DEFAF8C006D8D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53301A4D1DEFAF8C006D8D00 /* RestButton WatchKit App */;
+			targetProxy = 53301A501DEFAF8C006D8D00 /* PBXContainerItemProxy */;
+		};
+		53301A601DEFAF8C006D8D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53301A5C1DEFAF8C006D8D00 /* RestButton WatchKit Extension */;
+			targetProxy = 53301A5F1DEFAF8C006D8D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53301A431DEFAF8B006D8D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53301A441DEFAF8B006D8D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53301A481DEFAF8C006D8D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53301A491DEFAF8C006D8D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53301A531DEFAF8C006D8D00 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53301A541DEFAF8C006D8D00 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53301A6D1DEFAF8C006D8D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53301A6E1DEFAF8C006D8D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53301A701DEFAF8C006D8D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				INFOPLIST_FILE = "RestButton WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		53301A711DEFAF8C006D8D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				INFOPLIST_FILE = "RestButton WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		53301A741DEFAF8C006D8D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				IBSC_MODULE = RestButton_WatchKit_Extension;
+				INFOPLIST_FILE = "RestButton WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		53301A751DEFAF8C006D8D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				IBSC_MODULE = RestButton_WatchKit_Extension;
+				INFOPLIST_FILE = "RestButton WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		53301A781DEFAF8C006D8D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				INFOPLIST_FILE = RestButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53301A791DEFAF8C006D8D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E7D5R7C83;
+				INFOPLIST_FILE = RestButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.syousif.RestButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53301A371DEFAF8B006D8D00 /* Build configuration list for PBXProject "RestButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53301A6D1DEFAF8C006D8D00 /* Debug */,
+				53301A6E1DEFAF8C006D8D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53301A6F1DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53301A701DEFAF8C006D8D00 /* Debug */,
+				53301A711DEFAF8C006D8D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53301A731DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53301A741DEFAF8C006D8D00 /* Debug */,
+				53301A751DEFAF8C006D8D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53301A771DEFAF8C006D8D00 /* Build configuration list for PBXNativeTarget "RestButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53301A781DEFAF8C006D8D00 /* Debug */,
+				53301A791DEFAF8C006D8D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53301A341DEFAF8B006D8D00 /* Project object */;
+}
